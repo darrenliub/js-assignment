@@ -17,5 +17,5 @@ document.write(teacher + " is born in "+ birthYear + "<br>")
 
 document.write(`${teacher} is born in ${birthYear} and he teaches ${student1} Web Dev`)
 
-const friend = prompt ("What is your best friend's name?<br>")
-const main = prompt ("Who are you?<br>")
+const friend = prompt ("What is your best friend's name?")
+const main = prompt ("Who are you?")
