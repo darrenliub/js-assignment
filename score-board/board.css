@@ -1,0 +1,171 @@
+body {
+    background-image: url(https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.6435-9/70447453_2433581010056132_2988355025270472704_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=O8T8S2ylVe4AX_vOtEg&_nc_oc=AQk1Ax3gSflk5W9LE3bm2RT-HX7JOTj5OCuXPoq9xBEg8r1JcR3HAQ2Y7N2ZZ0-D3q4&_nc_ht=scontent.ftpe7-4.fna&oh=00_AfA0jF-7ZHt6TkZQ5Q9G_l2myjeEXy_IYES70x0Vth2dYg&oe=641E36A2);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#resetGame{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    font-size: 40px;
+    margin-top: 150px;
+}
+
+#timerButtons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+#stopTimer {
+    display: flex;
+    font-size: 40px;
+}
+
+#startTimer {
+    display: flex;
+    font-size: 40px;
+}
+
+#resetTimer {
+    display: flex;
+    font-size: 40px;
+}
+
+#periodButtons {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+#periodPlus {
+    display: flex;
+    font-size: 40px;
+}
+
+#periodMinus {
+    display: flex;
+    font-size: 40px;
+}
+
+#shotClock {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stopShot {
+    display: flex;
+    font-size: 40px;
+}
+
+#startShot {
+    display: flex;
+    font-size: 40px;
+}
+
+#resetShot {
+    display: flex;
+    font-size: 40px;
+}
+
+#scoreBoard {
+    display: flex;
+    width: 300px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#leftTeam {
+    height: 150px;
+    width: 100px;
+    background-color: blue;
+    color: red;
+}
+
+#team1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#score1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#black {
+    height: 150px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+#time {
+    display: flex;
+    font-size: 35px;
+    justify-content: space-evenly;
+}
+
+#minutes {
+    margin: 0%;
+}
+
+#colon {
+    margin: 0%;
+}
+
+#seconds {
+    margin: 0%;
+}
+
+#periodWord {
+    font-size: 25px;
+    text-align: center;
+    margin: 0%;
+}
+
+#periodNumber {
+    font-size: 20px;
+    text-align: center;
+    margin: 0%;
+}
+
+#shotNumber {
+    font-size: 25px;
+    text-align: center;
+}
+
+#rightTeam {
+    height: 150px;
+    width: 100px;
+    background-color: red;
+    color: blue;
+}
+
+#team2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#score2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#scoreButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#scorePlus {
+    display: flex;
+    font-size: 40px;
+}
+
+#scoreMinus {
+    display: flex;
+    font-size: 40px;
+}
