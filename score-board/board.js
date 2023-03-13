@@ -1,3 +1,6 @@
+const name1 = prompt("What is team1's name?")
+const name2 = prompt("What is team2's name?")
+
 let seconds = 60
 let minutes = 11
 let score1 = 0
