@@ -1,0 +1,99 @@
+body {
+    margin: 0%;
+}
+
+#background {
+    background-image: linear-gradient(rgba(0 0 0/0.5), rgba(0 0 0/0.5)), url(https://w0.peakpx.com/wallpaper/743/541/HD-wallpaper-robotic-factory-cgi-graphics-futuristic-factory-3d-render.jpg);
+    filter: blur(3px);
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 795px;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+
+#titleDiv {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+
+#title {
+    color: rgb(240, 232, 232);
+    font-size: 200px;
+    margin-top: 0%;
+    margin: 0%;
+}
+
+#bodyDiv {
+    display: flex;
+    justify-content: space-around;
+    margin: 0%;
+    margin-bottom: 0%;
+}
+
+#bodyguard {
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#bodyguardName {
+    color: rgb(240, 232, 232);
+    font-size: 30px;
+}
+
+#bodyguardImage {
+    margin: 0%;
+    width: 400px;
+    height: 400px;
+}
+
+#cooking {
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#cookingName {
+    color: rgb(240, 232, 232);
+    font-size: 30px;
+}
+
+#cookingImage {
+    margin: 0%;
+    width: 400px;
+    height: 400px;
+}
+
+#make {
+    display: flex;
+    margin: 0%;
+    align-items: center;
+    flex-direction: column;
+}
+
+#makeName {
+    color: rgb(240, 232, 232);
+    font-size: 30px;
+}
+
+#makeImage {
+    margin: 0%;
+    width: 400px;
+    height: 400px;
+}
+
+#makeImageHover {
+    position: absolute;
+    opacity: 50%;
+    margin: 0%;
+    width: 400px;
+    height: 400px;
+}
