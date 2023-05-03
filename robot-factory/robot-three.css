@@ -1,11 +1,10 @@
 body {
     margin: 0%;
-    background-color: black;
+    background-color: pink;
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url(https://wallpapers.com/images/featured/pink-marble-pee406l4m46zdyic.webp);
 }
 
 ::placeholder {
@@ -23,12 +22,12 @@ body {
 #bigDiv {
     display: flex;
     flex-direction: row;
-    height: 90%;
     margin: 0%;
 }
 
 #leftDiv {
     display: flex;
+    margin-top: 200px;
     width: 50%;
     height: 100%;
     flex-direction: column;
@@ -73,15 +72,6 @@ body {
     margin: 10px;
 }
 
-#delete {
-    border-radius: 5px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 100px;
-    height: 50px;
-    margin: 10px;
-}
 
 #rightDiv {
     display: flex;

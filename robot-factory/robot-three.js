@@ -1,55 +1,72 @@
-// const nameThree = localStorage.getItem('nameThree')
-// const imageThree = localStorage.getItem('imageThree')
-// const useThree = localStorage.getItem('useThree')
-// document.querySelector("#robotName").innerText = nameThree
-// document.querySelector("#robotImage").innerHTML = `<img id="showRobotImage" src='${imageThree}'>`
-// document.querySelector("#robotUse").innerText = useThree
-
-// create your robot Class
 class CustomRobot {
     constructor(nameThree, imageThree, useThree) {
         this.name = nameThree
         this.image = imageThree
         this.use = useThree
-    }}
+    }
+}
 
-let customRobots = []
+// get local storage data
+const customRobotFromLocalStorage = localStorage.getItem('customRobots')
+const convertedData = JSON.parse(customRobotFromLocalStorage)
+
+// set customRobots equal to that data
+// if there is data, make customRobots that data
+// else, make customRobots an empty array
+
+let customRobots
+
+if (convertedData) {
+    customRobots = convertedData
+}
+
+if (convertedData === null) {
+    customRobots = []
+}
+
+
+// add your for loop to pre-populate the page with the saved robots
+customRobots.forEach(function (element){
+    document.querySelector("#rightDiv").innerHTML += 
+    `
+        <p id="robotName">${element.name}</p>
+        <div id="robotImage"><img id="showRobotImage" src='${element.image}'></div>
+        <p id="robotUse">${element.use}</p>
+`
+})
 
 function createRobot() {
     const nameThree = document.querySelector('#nameThree').value
     const imageThree = document.querySelector('#imageThree').value
     const useThree = document.querySelector('#useThree').value
 
-    console.log('nameThree', nameThree)
-    console.log('imageThree', imageThree)
-    console.log('useThree', useThree)
-
-
     const cRobot = new CustomRobot(nameThree, imageThree, useThree)
-    console.log('new custom robot', cRobot)
 
     // add the object to the array
     customRobots.push(cRobot)
 
+    // make sure to stringify   
+    const stringCustomRobots = JSON.stringify(customRobots)
+
     // save to localstorage
-    localStorage.setItem(customRobots, stringCustomRobots)
+    localStorage.setItem('customRobots', stringCustomRobots)
 
-    // make sure to stringify
-    const stringCustomRobots = string.stringify(customRobots)
-    
-    // localStorage.setItem('nameThree', nameThree)
-    // localStorage.setItem('imageThree', imageThree)
-    // localStorage.setItem('useThree', useThree)
+    document.querySelector("#rightDiv").innerHTML = ""
 
-    // document.querySelector("#robotName").innerText = nameThree
-    // document.querySelector("#robotImage").innerHTML = imageThree
-    // document.querySelector("#robotUse").innerText = useThree
-
-    // data.forEach(function(element) {
-    //     document.querySelector('.rightDiv').innerHTML += `
-    //     <p id="robotName"></p>
-    //     <div id="robotImage"></div>
-    //     <p id="robotUse"></p> 
-    //     `
-    // })
+    customRobots.forEach(function (element){
+        document.querySelector("#rightDiv").innerHTML += 
+        `
+            <p id="robotName">${element.name}</p>
+            <div id="robotImage"><img id="showRobotImage" src='${element.image}'></div>
+            <p id="robotUse">${element.use}</p>
+    `
+    })
 }
+
+// const destroyRobot = customRobots.filter(function(element) {
+//     return element !== 'destroy'
+// })
+
+// function destroyRobot() {
+//     return element !== 'destroy'
+// }
