@@ -1,0 +1,107 @@
+body {
+    background-color: black;
+}
+
+#bigDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#information {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#text {
+    color: white;
+}
+
+#image {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#oneDiv {
+    text-align: center;
+}
+
+#twoDiv {
+    text-align: center;
+}
+
+#threeDiv {
+    text-align: center;
+}
+
+#oneText {
+    color: white;
+}
+
+#twoText {
+    color: white;
+}
+
+#threeText {
+    color: white;
+}
+
+#song1play {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#song1pause {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#song1load {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#song2play {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#song2pause {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#song2load {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#song3play {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#song3pause {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
+
+#song3load {
+    margin: 5px;
+    width: 100px;
+    height: 50px;
+}
