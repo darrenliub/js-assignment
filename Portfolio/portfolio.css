@@ -78,17 +78,99 @@ body {
 
 #oneProject {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     font-size: 50px;
+    text-decoration: none;
+    color: white;
 }
 
 #twoProject {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     font-size: 50px;
+    text-decoration: none;
+    color: white;
 }
 
 #threeProject {
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+#my {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 70px;
+    margin-bottom: 0%;
+}
+
+#favorit {
+    font-size: 100px;
+    margin-top: 0%;
+}
+
+#onePlace {
+    font-size: 70px;
+    margin: 0%;
+}
+
+#oneGame {
+    width: 700px;
+    margin: 0%;
+}
+
+#secondGame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#twoPlace {
+    font-size: 70px;
+    margin: 0%;
+}
+
+#twoGame {
+    width: 700px;
+    margin: 0%;
+}
+
+#threePlace {
+    font-size: 70px;
+    margin: 0%;
+}
+
+#threeGame {
+    width: 700px;
+    margin: 0%;
+    margin-left: 50px;
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+#bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#registration {
+    text-align: center;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.6);
 }
